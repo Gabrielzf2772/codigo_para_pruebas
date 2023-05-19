@@ -1,0 +1,184 @@
+body {
+    background-color: #7f8081;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    min-height: 100vb;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vb;
+    overflow: hidden;
+   
+}
+
+nav {
+
+    background-color: #6f7272;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+}
+
+li:hover {
+    background-color: rgb(235, 231, 231);
+    color: rgb(47, 192, 250);
+    transition: all .3s ease;
+}
+
+.container {
+    position: absolute;
+    left: 48%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+input {
+    outline: none;
+    box-sizing: border-box;
+    height: 65px;
+    width: 0;
+    padding: 0 20px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 5px solid rgb(8, 15, 102);
+    transition: all .7s ease;
+}
+
+::placeholder {
+    color: gray;
+}
+
+.btn {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background: rgb(43, 49, 100);
+    border: 5px solid rgb(8, 15, 102);
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.btn i {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    transition: all .7s ease;
+}
+
+.container:hover input {
+    width: 500px;
+}
+
+.container:hover i {
+    transform: rotate(-360deg);
+}
+
+.btn:hover {
+    background: rgb(255, 0, 43);
+}
+
+.buttons {
+    position:initial;
+    min-width: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.buttons a {
+    
+    text-decoration: none;
+    font-size: 13px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.932);
+    color: rgba(255, 255, 255, 0.767);
+    border-radius: 50%;
+    transition: all .7s ease;
+}
+
+.contenedor01{
+
+    background-color: antiquewhite;
+    border:40px;
+    height: 00px;
+    border-radius: 50%;
+    transition: all .7s ease;
+
+}
+
+
+
+  h6{
+    color:rgb(0, 0, 0);
+    text-shadow: 1px 2px 2px rgb(248, 167, 167),0 0 25px rgb(104, 196, 165),0 0 5px blue;
+    text-align: center;
+    margin-top: 0;
+    margin-right:0;
+    transition: all .7 ease;
+
+    
+    
+}
+
+
+.btn2 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background-image:url("secotec.jpg");
+    background-size:70px 70px;
+    margin:23px;
+    margin-top: 110px;
+    border: 5px solid rgb(8, 15, 102);
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.btn3 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background-image:url("stginnova.jpg");
+    background-size:70px 70px;
+    margin:23px;
+    margin-top: 200px;
+    border: 5px solid rgb(8, 15, 102);
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    
+}

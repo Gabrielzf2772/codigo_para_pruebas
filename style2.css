@@ -1,0 +1,139 @@
+
+
+.spinner{
+    width:10em;
+    height: 10em;
+    border-top:1em solid rgb(8, 15, 102) ;
+    border-right:1em solid transparent;
+    border-radius: 50%;
+    margin: -45px;
+    margin-top: -109px;
+    animation:spinner 9.6s linear infinite;
+}
+
+.circle{
+    width: 1em;
+    height: 1em;
+    background-color: rgb(8, 15, 102);
+    border-radius:50%;
+    margin-left:8.5em;
+    margin-top: 0.53em;
+}
+
+@keyframes spinner {
+    100% {
+        transform:rotate(360deg);
+    }
+
+
+    
+}
+.spinner2{
+    width:10em;
+    height: 10em;
+    border-top:1em solid rgb(255, 0, 0) ;
+    border-right:1em solid transparent;
+    border-radius: 50%;
+    margin:-45px;
+    margin-top:-190px;
+    animation:spinner2 14.5s linear infinite;
+    transition: all 1s ease;
+}
+
+
+.circle2{
+    width: 1em;
+    height: 1em;
+    background-color:rgb(255, 0, 0);
+    border-radius:50%;
+    margin-left:8.5em;
+    margin-top: 0.53em;
+}
+.spinner3{
+    width:10em;
+    height: 10em;
+    border-top:1em solid rgb(255, 230, 0) ;
+    border-right:1em solid transparent;
+    border-radius: 50%;
+    margin:-50px;
+    margin-top:-200px;
+    animation:spinner2 19.3s linear infinite;
+    transition: all 1s ease;
+}
+
+
+.circle3{
+    width: 1em;
+    height: 1em;
+    background-color:rgb(255, 230, 0);
+    border-radius:50%;
+    margin-left:8.5em;
+    margin-top: 0.53em;
+}
+.spinner3{
+    width:10em;
+    height: 10em;
+    border-top:1em solid rgb(255, 187, 0) ;
+    border-right:1em solid transparent;
+    border-radius: 50%;
+    margin:-50;
+    margin-top:-200px;
+    animation:spinner2 14.1s linear infinite;
+    transition: all 1s ease;
+}
+
+
+.circle3{
+    width: 1em;
+    height: 1em;
+    background-color:rgb(255, 187, 0);
+    border-radius:50%;
+    margin-left:8.5em;
+    margin-top: 0.53em;
+}
+.spinner4{
+    width:10em;
+    height: 10em;
+    border-top:1em solid rgb(41, 161, 25) ;
+    border-right:1em solid transparent;
+    border-radius: 50%;
+    margin:-50px;
+    margin-top:-170px;
+    animation:spinner2 24.1s linear infinite;
+    transition: all 1s ease;
+}
+
+
+.circle4{
+    width: 1em;
+    height: 1em;
+    background-color:rgb(41, 161, 25);
+    border-radius:50%;
+    margin-left:8.5em;
+    margin-top: 0.53em;
+}
+
+
+
+@keyframes spinner2 {
+    100% {
+        transform:rotate(360deg);
+    }
+
+
+}
+@keyframes spinner3 {
+    100% {
+        transform:rotate(360deg);
+    }
+
+
+    
+}@keyframes spinner4 {
+    100% {
+        transform:rotate(360deg);
+    }
+
+
+    
+}
