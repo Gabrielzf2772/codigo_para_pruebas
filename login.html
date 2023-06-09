@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Iniciar sesión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            margin-top: 100;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            margin-top: 5;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            padding: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #237a23;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <p align="right"> <a href="Prueba2.html"> volver al menu </a></p>
+    <br>
+    <h1>Iniciar sesión</h1>
+   
+    <form action="procesar_login.php" method="post">
+        <input type="text" name="username" placeholder="Usuario" required>
+        <input type="password" name="password" placeholder="contrasena" required>
+        <input type="submit" value="Iniciar sesión">
+        <p align="center">no tienes una cuenta registrate <a href="signup.html"> aqui </a> !</p>
+    </form>
+</body></html>

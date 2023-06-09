@@ -15,12 +15,11 @@
 <body>
     <header>
         <nav class="nav">
-            <!--<ul class="list-nav">
-                    <li><a>opcion1</a></li>
-                    <li><a>opcion2</a></li>
-                    <li><a>opcion3</a></li>
-                    <li><a>opcion4</a></li>
-                </ul>-->
+            <ul class="list-nav">
+                <li><a href="login.html"> iniciar sesion</a></li>
+                <li><a href="signup.html"> registrate</a></li>
+            </ul>
+
         </nav>
     </header>
 
@@ -58,10 +57,18 @@
                 </div>
             </div>
         </div>
-
-
-
     </div>
+
+    <script>
+        btn.onclick = function () {
+
+            var buscar = document.getElementById("buscar").value;
+            if (buscar == " lider") {
+                panel.innerhtml = "es una persona "
+            }
+
+        }
+    </script>
 </body>
 
 </html>
