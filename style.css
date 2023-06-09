@@ -23,7 +23,7 @@ nav {
 
 ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
