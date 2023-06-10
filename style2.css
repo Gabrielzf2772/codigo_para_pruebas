@@ -1,9 +1,7 @@
-
-
 .spinner{
     width:10em;
     height: 10em;
-    border-top:1em solid rgb(8, 15, 102) ;
+    border-top:1em solid rgb(10, 20, 148) ;
     border-right:1em solid transparent;
     border-radius: 50%;
     margin: -45px;
@@ -14,7 +12,7 @@
 .circle{
     width: 1em;
     height: 1em;
-    background-color: rgb(8, 15, 102);
+    background-color: rgb(10, 20, 148);
     border-radius:50%;
     margin-left:8.5em;
     margin-top: 0.53em;
@@ -24,8 +22,6 @@
     100% {
         transform:rotate(360deg);
     }
-
-
     
 }
 .spinner2{
@@ -37,7 +33,7 @@
     margin:-45px;
     margin-top:-190px;
     animation:spinner2 14.5s linear infinite;
-    transition: all 1s ease;
+    transition: all 2s ease;
 }
 
 
@@ -58,7 +54,7 @@
     margin:-50px;
     margin-top:-200px;
     animation:spinner2 19.3s linear infinite;
-    transition: all 1s ease;
+    transition: all 3s ease;
 }
 
 
@@ -79,7 +75,7 @@
     margin:-50;
     margin-top:-200px;
     animation:spinner2 14.1s linear infinite;
-    transition: all 1s ease;
+    transition: all 4s ease;
 }
 
 
